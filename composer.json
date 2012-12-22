@@ -17,7 +17,7 @@
     	"mouf/mouf-installer": ">=2.0.0-dev",
     	"mouf/utils.common.mouf-helpers": "~2.0",
         "mouf/utils.log.db-logger": "~2.0",
-        "mouf/utils.log.filter-logger": "~2.0"
+        "mouf/utils.log.filter-logger": "~2.0",
         "mouf/database.dbstats": "~2.0"
     },
     "autoload": {
