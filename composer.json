@@ -1,0 +1,42 @@
+{
+    "name": "mouf/utils.log.advanced-logger",
+    "description": "This package contains everything needed to aggregate database into stats that can be viewed and sorted.",
+    "keywords": ["advanced logging", "log database", "aggregation", "mouf"],
+    "homepage": "https://github.com/thecodingmachine/utils.log.advanced-logger",
+    "type": "mouf-library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Négrier",
+            "email": "d.negrier@thecodingmachine.com",
+            "homepage": "http://mouf-php.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0",
+    	"mouf/mouf-installer": ">=2.0.0-dev",
+    	"mouf/utils.common.mouf-helpers": "~2.0",
+        "mouf/utils.log.db-logger": "~2.0",
+        "mouf/utils.log.filter-logger": "~2.0"
+        "mouf/database.dbstats": "~2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mouf": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+		"mouf": {
+			"install": [
+				{
+					"type": "url",
+					"url": "logstatsinstall/"
+				}
+			],
+			"require-admin": [
+				"src/LogStatsAdmin.php"
+			]
+		}
+	}
+}
