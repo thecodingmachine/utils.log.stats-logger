@@ -1,8 +1,8 @@
 {
-    "name": "mouf/utils.log.advanced-logger",
+    "name": "mouf/utils.log.stats-logger",
     "description": "This package contains everything needed to aggregate database into stats that can be viewed and sorted.",
     "keywords": ["advanced logging", "log database", "aggregation", "mouf"],
-    "homepage": "https://github.com/thecodingmachine/utils.log.advanced-logger",
+    "homepage": "https://github.com/thecodingmachine/utils.log.stats-logger",
     "type": "mouf-library",
     "license": "MIT",
     "authors": [
